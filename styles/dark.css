@@ -9,8 +9,60 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-bg-color: #010028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --accent-bg-title-color: #000028;
+  --accent-color: #ff0070;
+  --accent-color-RGBA-low: rgba(255, 0, 112, 0.4);
+  --big-title-color: #db00ff;
+  --p-text-color: #f1b2ce;
+  --shadow-color: #fe0070;
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-dark .decor__border__top {
+  border-inline-end: var(--accent-color) solid 1px;
+  border-block-start: var(--accent-color) solid 1px;
+}
+
+.theme-dark .decor__border__bottom {
+  border-inline-start: var(--accent-color) solid 1px;
+  border-block-end: var(--accent-color) solid 1px;
+}
+
+.theme-dark .sign__of__recording::before {
+  content: 'REC';
+  display: inline-block;
+  font-family: var(--main-font-family), 'Courier New', monospace;
+  margin-inline-start: -35px;
+  padding-block-start: 1px;
+  color: var(--accent-color);
+}
+
+.theme-dark .sign__of__recording::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  display: inline-block;
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  box-shadow: 0 0 5px 3px var(--accent-color);
+}
+
+.theme-dark .header__theme-menu-button {
+  color: var(--accent-color);
+}
+
+.theme-dark .header__theme-menu-button:focus-visible {
+  border-block-end: var(--accent-color) solid 1px;
+}
+
+.theme-dark .header__theme-menu-button_active {
+  border: var(--accent-color) solid 1px;
+}
+
+.theme-dark .accent-color__title {
+  color: var(--accent-color);
 }
