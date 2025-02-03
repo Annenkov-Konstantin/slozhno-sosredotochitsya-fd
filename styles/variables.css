@@ -1,5 +1,7 @@
-/* Если убрать из данного файла кастомные свойста тёмной темы, то при эмуляции по умолчанию тёмной темы и при нажатой кнопке "Авто",
-тёмная тема не включается*/
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
 :root {
   --main-font-family: "IBM Plex mono";
   --main-font-size: 1.125rem;
@@ -9,8 +11,10 @@
   --bg-image: url(../images/cover-image-dark.png);
   --accent-bg-title-color: #000028;
   --accent-color: #ff0070;
+  --accent-bg-color: #ff0070;
   --accent-color-RGBA-low: rgba(255, 0, 112, 0.4);
   --most-deco-title-color: #db00ff;
   --contrast-color: #f1b2ce;
   --shadow-color: #fe0070;
+  --display-decorated-element: inline-block;
 }
