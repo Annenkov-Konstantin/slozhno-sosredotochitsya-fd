@@ -1,21 +1,16 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+/* Если убрать дубликаты обращений к селекторам, то при выборе в браузере эмуляции по умолчанию тёмной 
+  темы и при одновременном нажатии на кнопку "День" цвета светлой темы меняются и все ломается.
+  Если убрать из данного файла кастомные свойста, то при выборе в браузере по умолчанию тёмной темы
+  кнопка "День" совсем перестаёт работать и оптять же все ломается.*/
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --main-bg-color: #ffeef6;
   --bg-image: url(../images/cover-image-light.png);
   --accent-bg-title-color: #000028;
   --accent-color: #ff8dcb;
   --accent-color-RGBA-low: rgba(50, 49, 45, 0.4);
-  --big-title-color: #ffc2e6;
-  --p-text-color: #353430;
+  --most-deco-title-color: #ffc2e6;
+  --contrast-color: #353430;
   --shadow-color: #fe8dcc;
 }
 
@@ -27,18 +22,19 @@
     --accent-bg-title-color: #000028;
     --accent-color: #ff8dcb;
     --accent-color-RGBA-low: rgba(50, 49, 45, 0.4);
-    --big-title-color: #ffc2e6;
-    --p-text-color: #353430;
+    --most-deco-title-color: #ffc2e6;
+    --contrast-color: #353430;
     --shadow-color: #fe8dcc;
   }
+
   .decor__border__top {
-    border-inline-end: var(--p-text-color) solid 1px;
-    border-block-start: var(--p-text-color) solid 1px;
+    border-inline-end: var(--contrast-color) solid 1px;
+    border-block-start: var(--contrast-color) solid 1px;
   }
 
   .decor__border__bottom {
-    border-inline-start: var(--p-text-color) solid 1px;
-    border-block-end: var(--p-text-color) solid 1px;
+    border-inline-start: var(--contrast-color) solid 1px;
+    border-block-end: var(--contrast-color) solid 1px;
   }
 
   .sign__of__recording::before,
@@ -47,30 +43,30 @@
   }
 
   .header__theme-menu-button {
-    color: var(--p-text-color);
+    color: var(--contrast-color);
   }
 
   .header__theme-menu-button:focus-visible {
-    border-block-end: var(--p-text-color) solid 1px;
+    box-shadow: 0 1px 0 var(--contrast-color);
   }
 
   .header__theme-menu-button_active {
-    border: var(--p-text-color) solid 1px;
+    outline: var(--contrast-color) solid 1px;
   }
 
   .accent-color__title {
-    color: var(--p-text-color);
+    color: var(--contrast-color);
   }
 }
 
 .theme-light .decor__border__top {
-  border-inline-end: var(--p-text-color) solid 1px;
-  border-block-start: var(--p-text-color) solid 1px;
+  border-inline-end: var(--contrast-color) solid 1px;
+  border-block-start: var(--contrast-color) solid 1px;
 }
 
 .theme-light .decor__border__bottom {
-  border-inline-start: var(--p-text-color) solid 1px;
-  border-block-end: var(--p-text-color) solid 1px;
+  border-inline-start: var(--contrast-color) solid 1px;
+  border-block-end: var(--contrast-color) solid 1px;
 }
 
 .theme-light .sign__of__recording::before,
@@ -79,17 +75,17 @@
 }
 
 .theme-light .header__theme-menu-button {
-  color: var(--p-text-color);
+  color: var(--contrast-color);
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
-  border-block-end: var(--p-text-color) solid 1px;
+  box-shadow: 0 1px 0 var(--contrast-color);
 }
 
 .theme-light .header__theme-menu-button_active {
-  border: var(--p-text-color) solid 1px;
+  outline: var(--contrast-color) solid 1px;
 }
 
 .theme-light .accent-color__title {
-  color: var(--p-text-color);
+  color: var(--contrast-color);
 }

@@ -1,21 +1,15 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+/* Если убрать дубликаты обращений к селекторам, то при выборе в браузере эмуляции по умолчанию светлой 
+  темы и при одновременном нажатии на кнопку "Неон" устанавливаются цвета светлой темы и все ломается.
+  Если убрать из данного файла кастомные свойста, то кнопка "Неон" совсем перестаёт работать.*/
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --main-bg-color: #010028;
   --bg-image: url(../images/cover-image-dark.png);
   --accent-bg-title-color: #000028;
   --accent-color: #ff0070;
   --accent-color-RGBA-low: rgba(255, 0, 112, 0.4);
-  --big-title-color: #db00ff;
-  --p-text-color: #f1b2ce;
+  --most-deco-title-color: #db00ff;
+  --contrast-color: #f1b2ce;
   --shadow-color: #fe0070;
 }
 
@@ -30,16 +24,16 @@
 }
 
 .theme-dark .sign__of__recording::before {
-  content: 'REC';
+  content: "REC";
   display: inline-block;
-  font-family: var(--main-font-family), 'Courier New', monospace;
-  margin-inline-start: -35px;
-  padding-block-start: 1px;
+  font-family: var(--main-font-family), "Courier New", monospace;
+  font-size: var(--main-font-size);
+  margin-inline-start: -36px;
   color: var(--accent-color);
 }
 
 .theme-dark .sign__of__recording::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   right: 8px;
@@ -56,11 +50,11 @@
 }
 
 .theme-dark .header__theme-menu-button:focus-visible {
-  border-block-end: var(--accent-color) solid 1px;
+  box-shadow: 0 1px 0 var(--accent-color);
 }
 
 .theme-dark .header__theme-menu-button_active {
-  border: var(--accent-color) solid 1px;
+  outline: var(--accent-color) solid 1px;
 }
 
 .theme-dark .accent-color__title {
