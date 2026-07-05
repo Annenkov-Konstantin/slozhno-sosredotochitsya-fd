@@ -1,4 +1,4 @@
-# 🎯 Сложно сосредоточиться
+# 🏛️ Сложно сосредоточиться
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ### Интерфейс сайта
 
-[🔗 Перейти на сайт](https://annenkov-konstantin.github.io/slozhno-sosredotochitsya-fd/) • [💻 Исходный код](https://github.com/Annenkov-Konstantin/slozhno-sosredotochitsya-fd)
+[🔗 Посмотреть демо](https://annenkov-konstantin.github.io/slozhno-sosredotochitsya-fd/) • [💻 Исходный код](https://github.com/Annenkov-Konstantin/slozhno-sosredotochitsya-fd)
 
 Адаптивная одностраничная статья о концентрации внимания с тремя темами оформления: светлой, тёмной и автоматической (на основе системных настроек пользователя). Проект выполнен в неоновом стиле с акцентом на типографику и декоративные элементы.
 
@@ -166,6 +166,10 @@ slozhno-sosredotochitsya-fd/
 - [ ] Оптимизировать изображения в формат WebP/AVIF
 - [ ] Добавить Open Graph мета-теги для красивых превью в соцсетях
 
+## 📚 Источники и оригинальный репозиторий
+
+ℹ️ **Примечание:** Этот репозиторий содержит код проекта, перенесённый для удобства демонстрации в портфолио. Частичная история разработки доступна в [оригинальном репозитории](https://github.com/Annenkov-Konstantin/slozhno-sosredotochitsya-fd).
+
 ## 📬 Контакты
 
 Если у вас есть вопросы по проекту или вы хотите сотрудничать:
@@ -177,6 +181,6 @@ slozhno-sosredotochitsya-fd/
 
 <div align="center">
 
-Если проект был полезен, поставьте ⭐ на GitHub!
+**Если проект был полезен, поставьте ⭐ на GitHub!**
 
 </div>
