@@ -1,8 +1,17 @@
 # 🎯 Сложно сосредоточиться
 
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge)
+
+</div>
+
 ### Превью проекта
 
-![Обложка проекта](images/site-preview.webp)
+![Обложка проекта](./images/site-preview.webp)
 
 ### Интерфейс сайта
 
@@ -26,15 +35,6 @@
 - **Изображения:** PNG с ленивой загрузкой (`loading="lazy"`)
 - **JavaScript:** Vanilla JS (переключение тем, сохранение в localStorage)
 - **Оптимизация:** CSS-переменные, `clamp()` для адаптивной типографики, `prefers-color-scheme`
-
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge)
-
-</div>
 
 ## ✨ Ключевые особенности
 
@@ -104,7 +104,7 @@
 1. Установи расширение Live Server
 2. Кликни правой кнопкой на index.html → "Open with Live Server"
 
-### 📁 Структура проекта
+## 📁 Структура проекта
 
 ```
 slozhno-sosredotochitsya-fd/
@@ -125,7 +125,7 @@ slozhno-sosredotochitsya-fd/
 └── README.md
 ```
 
-### 🧠 Архитектурные решения
+## 🧠 Архитектурные решения
 
 - Разделение CSS по темам
 - Каждая тема вынесена в отдельный файл (dark.css, light.css) и переопределяет CSS-переменные из variables.css.
@@ -158,13 +158,13 @@ slozhno-sosredotochitsya-fd/
 .tape { grid-column: 1 / auto; grid-row: 2 / span 2; }
 ```
 
-### 🔮 Возможные улучшения
+## 🔮 Возможные улучшения
 
-- [] Добавить плавные переходы между темами (transition для background-color, color)
-- [] Реализовать тему "Сепия" или другие дополнительные темы
-- [] Добавить анимацию появления контента при скролле (Intersection Observer)
-- [] Оптимизировать изображения в формат WebP/AVIF
-- [] Добавить Open Graph мета-теги для красивых превью в соцсетях
+- [ ] Добавить плавные переходы между темами (transition для background-color, color)
+- [ ] Реализовать тему "Сепия" или другие дополнительные темы
+- [ ] Добавить анимацию появления контента при скролле (Intersection Observer)
+- [ ] Оптимизировать изображения в формат WebP/AVIF
+- [ ] Добавить Open Graph мета-теги для красивых превью в соцсетях
 
 ## 📬 Контакты
 
