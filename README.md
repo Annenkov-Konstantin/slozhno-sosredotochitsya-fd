@@ -15,7 +15,7 @@
 
 ### Интерфейс сайта
 
-[🔗 Посмотреть демо](https://annenkov-konstantin.github.io/slozhno-sosredotochitsya-fd/) • [💻 Исходный код](https://github.com/Annenkov-Konstantin/slozhno-sosredotochitsya-fd)
+[🔗 Посмотреть демо](https://annenkov-konstantin.github.io/slozhno-sosredotochitsya-fd/)
 
 Адаптивная одностраничная статья о концентрации внимания с тремя темами оформления: светлой, тёмной и автоматической (на основе системных настроек пользователя). Проект выполнен в неоновом стиле с акцентом на типографику и декоративные элементы.
 
